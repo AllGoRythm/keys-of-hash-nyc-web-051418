@@ -13,5 +13,5 @@ class Hash
        end
      end
      country
-   end
+
 end
