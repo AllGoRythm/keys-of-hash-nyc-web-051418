@@ -3,9 +3,7 @@ class Hash
     this_array = []
 
     if arguments == "Panama"
-      return  :animals => {
-          ["red-footed tortoise"]
-        }
+      return  :animals => ["red-footed tortoise"]
      end
   end
 end
