@@ -13,7 +13,7 @@ class Hash
            collect << animal
          end
        end
-       return collect
      end
+     return collect
 end
 end
