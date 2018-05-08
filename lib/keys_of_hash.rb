@@ -9,7 +9,9 @@ class Hash
 
      arguments.each do |home_town|
        self.each do |animal, country|
-         binding.pry
+         if country == home_town
+           return animal
+         end
        end
      end
 end
