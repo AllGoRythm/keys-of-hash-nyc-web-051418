@@ -14,6 +14,6 @@ class Hash
          end
        end
      end
-     return collect
-end
+   return collect
+ end
 end
