@@ -7,7 +7,7 @@ class Hash
     # from the hash whose value matches the value(s) given as an argument.
      collect = []
 
-     arguments.each do |home_town|
+     arguments.each do |based_in|
        self.each do |animal, country|
          collect << animal if country == home_town
        end
