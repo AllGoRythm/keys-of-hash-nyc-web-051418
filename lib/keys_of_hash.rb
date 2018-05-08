@@ -5,12 +5,12 @@ class Hash
     # using the splat operator,
     # and return an array with every key
     # from the hash whose value matches the value(s) given as an argument.
-     country = []
+     collect = []
 
      arguments.each do |home_town|
        self.each do |animal, country|
          if country == home_town
-           return animal
+           collect << animal
          end
        end
      end
