@@ -9,9 +9,7 @@ class Hash
 
      arguments.each do |home_town|
        self.each do |animal, country|
-         if country == home_town
-           collect << animal
-         end
+         collect << animal if country == home_town
        end
      end
    return collect
