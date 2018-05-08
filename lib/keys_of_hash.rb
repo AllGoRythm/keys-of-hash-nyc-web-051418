@@ -4,9 +4,6 @@ class Hash
      []
      animals.each do |animal|
        binding.pry
-       if arguments == "Panama"
-
-       end
      end
    end
 end
