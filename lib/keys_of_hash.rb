@@ -6,5 +6,6 @@ class Hash
      arguments.each do |variable|
        binding.pry
      end
+     
    end
 end
