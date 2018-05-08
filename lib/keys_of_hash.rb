@@ -7,7 +7,7 @@ class Hash
     # from the hash whose value matches the value(s) given as an argument.
      country = []
 
-     arguments.each do |country, c|
+     arguments.each do |country|
        binding.pry
      end
   country
