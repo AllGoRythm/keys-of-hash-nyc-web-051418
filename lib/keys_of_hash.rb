@@ -9,7 +9,7 @@ class Hash
 
      arguments.each do |based_in|
        self.each do |animal, country|
-         collect << animal if country == home_town
+         collect << animal if country == based_in
        end
      end
    return collect
