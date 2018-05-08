@@ -8,7 +8,7 @@ class Hash
      country = []
 
      arguments.each do |country|
-       if *arguments == country
+       if arguments == country
          country << country
        end
      end
