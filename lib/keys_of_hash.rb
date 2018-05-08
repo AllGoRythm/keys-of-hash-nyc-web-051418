@@ -8,8 +8,10 @@ class Hash
      country = []
 
      arguments.each do |country|
-       binding.pry
+       if *arguments == country
+         country << country
+       end
      end
-
+     country
    end
 end
