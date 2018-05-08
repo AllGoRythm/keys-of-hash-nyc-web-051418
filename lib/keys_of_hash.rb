@@ -8,7 +8,9 @@ class Hash
      country = []
 
      arguments.each do |country|
-
+       country.each do  |v|
+         binding.pry
+       end
      end
 
    end
