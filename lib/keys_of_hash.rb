@@ -3,7 +3,7 @@ class Hash
   def keys_of(arguments)
      collect = []
 
-       animals.each do |animal, country|
+       arguments.each do |animal, country|
          binding.pry
          if arguments == "Panama"
            collect << animal
